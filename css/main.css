@@ -1,0 +1,368 @@
+
+body {
+	font-family: sans-serif;
+	font-size: 24px;
+	min-width: 320px;
+	position: relative;
+	line-height: 1.6;
+	font-family: "PTSansRegular", sans-serif;
+	overflow-x: hidden;
+	box-sizing: border-box;
+}
+
+section {
+	padding: 10px 140px;
+	position: relative;
+}
+.container {
+	display: -webkit-box; /* iOS 6-, Safari 3.1-6 */
+	display: -ms-flexbox; /* IE 10 */
+	display: -webkit-flex; /* Chrome */
+	display: flex; /* Opera 12.1, Firefox 20+ */
+}
+.column-1,
+.column-2	{
+	width: 50%;
+}
+/*Шапка*/
+.main_header{	
+	padding: 40px 140px;
+	position: relative;
+	text-align: center;
+}
+.logo_wrap {
+	border-bottom: 1px solid #000;
+}
+.logo_wrap img {
+	margin: 0 auto;
+	display: block;
+}
+.main_header h2 {
+	font-size: 27px;
+	font-family: "PTSansRegular", sans-serif;
+	color: #18374b;
+	margin: 0;
+	padding: 0;
+	margin-bottom: 20px;
+	margin-top: 2px;
+	margin-left: 30px;
+}
+
+.free_webinar {
+	margin-top: 50px;
+}
+.free_webinar h1 {
+	padding: 0;
+	margin: 0;
+	font-size: 34px;
+	font-family: "Circe-Bold", sans-serif;
+	color: #ff621f;
+	text-transform: uppercase;
+	
+}
+.free_webinar p {
+	font-size: 30px;
+	font-family: "Circe-Bold", sans-serif;
+	color: #000;
+	line-height: 1.2;
+	margin-bottom: 40px;
+}
+/*Конец шапки*/
+
+/*Левая колонка контента*/
+.left_side {
+	height: 100%;
+	background-color: #ff621f;
+	padding: 30px;
+	position: relative;
+}
+.data {
+	width: 125px;
+	height: 125px;
+	background-color: #fff;
+	position: relative;
+	display: inline-block;
+	float: left;
+}
+.data strong {
+	font-size: 73px;
+	font-family: "PTSansBold", sans-serif;
+	color: #c2c2c2;
+	position: absolute;
+	top: 15px;
+	right: 20px;
+}
+.data span {
+	color: #fff;
+	position: absolute;
+	right: 40px;
+	top: -4px;
+}
+.data:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: #2b2e35;
+	height: 28px;
+	width: 100%;
+}
+.data_right {
+	display: inline-block;
+	color: #fff;
+	margin-left: 30px;
+	margin-top: -10px;
+}
+.data_right span {
+	font-family: "Circe-Bold", sans-serif;
+	text-transform: uppercase;
+	font-size: 30px;
+	margin: 0;
+	padding: 0;
+	display: block;
+	margin-bottom: -10px;
+}
+.data_right p {
+	font-family: "Circe-Bold", sans-serif;
+	text-transform: uppercase;
+	font-size: 36px;
+	margin: 0;
+	padding: 0;
+}
+.data_right h6 {
+	font-family: "PTSansRegular", sans-serif;
+	font-size: 24px;
+	margin: 0;
+	padding: 0;
+	border-top: 1px dashed #fff;
+	margin-top: 10px;
+}
+.photo_ivan {
+	text-align: center;
+	margin-top: 40px;
+}
+.photo_ivan img {
+	border: 8px solid #fff;
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+}
+.about_user {
+	color: #fff;
+	font-size: 18px;
+	font-family: "PTSansRegular";
+}
+.about_user li {
+	margin-bottom: 15px;
+	padding-left: 5px;
+}
+.about_user span {
+	font-family: Georgia, sans-serif;
+	font-style: italic;
+	font-size: 22px;
+	text-align: center;
+	display: block;
+	margin-bottom: 10px;
+}
+.about_user p {
+	font-family: "PTSansBold", sans-serif;
+	font-size: 22px;
+	text-align: center;
+	display: block;
+	text-transform: uppercase;
+	margin: 0;
+	padding: 0;
+	line-height: 1.2;
+	margin-bottom: 40px;
+}
+
+/*Правая колонка контента*/
+.right_side {
+	height: 100%;
+	background-color: #c2c2c2;
+	padding: 30px;
+	position: relative;
+}
+.right_side h3,
+.right_side h2 {
+	font-size: 21px;
+	padding: 0;
+	margin: 0;
+	margin-bottom: 20px;
+	font-family: "PTSansBold";
+	text-transform: uppercase;
+	color: #2b2e35;
+	text-align: center;
+}
+.right_side h2 {
+	font-size: 24px;
+	text-align: left;
+}
+.right_side_desc ul {
+	list-style-image: url('../img/galka.png');
+	margin-top: 45px;
+}
+.right_side_desc li {
+	font-size: 24px;
+	font-family: "PTSansRegular", sans-serif;
+	padding-left: 10px;
+	line-height: 1.2;
+	margin-bottom: 25px;
+}
+/*Описание*/
+.after_description {
+	position: relative;
+	text-align: center;
+	margin-top: 100px;
+	border-bottom: 1px dashed #2b2e35;
+	margin-bottom: 20px;
+}
+.after_description p {
+	font-family: Georgia,sans-serif;
+	font-style: italic;
+	padding: 0 200px;
+	font-size: 24px;
+	color: #2b2e35;
+	margin-bottom: 40px;
+}
+.after_description span {
+	font-size: 30px;
+}
+.after_description h3 {
+	color: #2b2e35;
+	font-size: 36px;
+	font-family: "PTSansRegular", sans-serif;
+	font-weight: 300;
+	padding: 0 20px;
+	margin: 0;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+/*Секция вебинара*/
+.technologie_webinar {
+	background-color: #fff;
+	background-image: url(../img/rectangle.png);
+	background-position: center;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.busines_webinar h3 {
+	font-family: "PTSansBold", sans-serif;
+	font-size: 36px;
+	color: #2b2e35;
+	text-align:center;
+	margin: 0;
+	padding: 0;
+	line-height: 1.2;
+	margin-bottom: 40px;
+}
+.busines_webinar h5 {
+	font-size: 27px;
+	margin: 0;
+	padding: 0;
+	color: #2b2e35;
+	font-weight: 100;
+}
+/*Конец секции вебинара*/
+/*Секция коллажа*/
+.collage_foto {
+	background-image: url(../img/triangle.png);
+	background-color: #efefef;
+	background-position: center;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.collage_fotography {
+	text-align: center;
+}
+.collage_fotography img {
+	max-width: 100%;
+	margin-top: 20px;
+}
+.collage_description h3 {
+	margin: 0;
+	padding: 0;
+	color: #2b2e35;
+	font-weight: 100;
+}
+.collage_description p {
+	font-size: 30px;
+	font-family: "PTSansBold";
+	color: #2b2e35;
+	margin-bottom: 50px;
+}
+
+.footer_social {
+	text-align: center;
+	margin: 40px;
+}
+/*Конец секции коллажа*/
+
+/*Buttons*/
+
+.button {
+	padding: 20px 65px;
+	background-color: #ff621f;
+	color: #fff;
+	text-decoration: none;
+	position: relative;
+	font-family: "PTSansBold", sans-serif;
+	font-size: 27px;
+	
+}
+.button:hover {
+	background-color: #d15c2b;
+	transition: all 0.5s ease;
+}
+.button:after {
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	height: 5px;
+	background-color: #ff332a;
+	width: 100%;
+}
+.btn_about {
+	padding: 5px 40px;
+	background-color: #ff621f;
+	font-size: 36px;
+	text-decoration: none;
+	color: #fff;
+}
+.button.btn-collage {
+	display: block;
+	text-align: center;
+	font-size: 38px;
+}
+
+
+/*.days ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	margin-bottom: 30px;
+	margin-top: -10px;
+
+}
+.days ul li {
+	display: inline-block;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-family: "Circe-Bold", sans-serif;
+	color: #2b2e35;
+}
+.days li:nth-child(1){
+	margin-right: 58px;
+	margin-left: 30px;
+}
+.days li:nth-child(2){
+	margin-right: 53px;
+	
+}
+.days li:nth-child(3){
+	margin-right: 45px;
+}
+*/
